@@ -1,37 +1,31 @@
 import React from "react";
-import arrayDestruct from "../assets/projects/arrayDestruct.jpg";
-import installNode from "../assets/projects/installNode.jpg";
-import navbar from "../assets/projects/navbar.jpg";
-import reactParallax from "../assets/projects/reactParallax.jpg";
-import reactSmooth from "../assets/projects/reactSmooth.jpg";
-import reactWeather from "../assets/projects/reactWeather.jpg";
 
 const Projects = () => {
   const projects = [
-    {
-      id: 1,
-      src: arrayDestruct,
-    },
-    {
-      id: 2,
-      src: reactParallax,
-    },
-    {
-      id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+    // {
+    //   id: 1,
+    //   src: arrayDestruct,
+    // },
+    // {
+    //   id: 2,
+    //   src: reactParallax,
+    // },
+    // {
+    //   id: 3,
+    //   src: navbar,
+    // },
+    // {
+    //   id: 4,
+    //   src: reactSmooth,
+    // },
+    // {
+    //   id: 5,
+    //   src: installNode,
+    // },
+    // {
+    //   id: 6,
+    //   src: reactWeather,
+    // },
   ];
 
   return (
