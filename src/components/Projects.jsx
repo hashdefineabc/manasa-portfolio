@@ -2,6 +2,7 @@ import React from "react";
 
 import stockProject from "../assets/projects/stockProject.png";
 import leetcodeExtension from '../assets/projects/leetcode.png';
+import foodOrdering from '../assets/projects/foodOrdering.jpeg';
 
 const Projects = () => {
   const projects = [
@@ -16,6 +17,12 @@ const Projects = () => {
       title: "Leetcode Difficulty Hider Chrome Extension",
       src: leetcodeExtension,
       url: "https://github.com/hashdefineabc/leetcode-extension-hide-difficulty/tree/manasa"
+    },
+    {
+      id: 3,
+      title: "Food Ordering App",
+      src: foodOrdering,
+      url: "https://github.com/hashdefineabc/foodOrderingApp"
     },
   ];
 
